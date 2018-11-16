@@ -18,7 +18,7 @@ public class BodyJson {
 
 		arrayL.add(json);
 
-		System.out.println(arrayL);
+		//System.out.println(arrayL);
 		JSONObject sendJsonBodyobj = new JSONObject();
 		if("test".equals(arg)) {
 			sendJsonBodyobj.put("VALUES", arrayL);
