@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Suite]]]">
+  <test thread-count="5" name="Test1(failed)(failed)(failed)">
+    <classes>
+      <class name="restAssuredApi.ApiPostTest">
+        <methods>
+          <include name="postTest" invocation-numbers="2 0 0 2 0 0 0 2 0 0 0 0 0 2 0 0 2 2 0 2 0 0"/>
+        </methods>
+      </class> <!-- restAssuredApi.ApiPostTest -->
+    </classes>
+  </test> <!-- Test1(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->
